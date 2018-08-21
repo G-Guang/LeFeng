@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*(1)清除默认样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input { margin: 0; padding: 0; }
+
+fieldset, img, input, button { border: 0 none; padding: 0; margin: 0; outline-style: none; }
+
+/*去掉input等聚焦时的蓝色边框*/
+ul, li, ol { list-style: none; }
+
+select, input { vertical-align: middle; }
+
+textarea { resize: none; }
+
+/*防止拖动*/
+img { border: 0; vertical-align: middle; }
+
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse: collapse; }
+
+a { text-decoration: none; }
+
+/*2.添加公共样式*/
+/*body {
+    font:12px Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}*/
+.clearfix:after { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; zoom: 1; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 1em; }
+
+/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s, i, em { font-style: normal; text-decoration: none; }
+
+/*公共类*/
+.container { /*内容、版心 提取 */ width: 1140px; margin: 0 auto; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.ac { text-align: center; }
+
+.hide { display: none; }
+
+.f12 { font-size: 12px; }
+
+.f14 { font-size: 14px; }
+
+.f16 { font-size: 16px; }
+
+/*3.页面公共部分*/
+@font-face { font-family: "iconfont"; src: url("iconfont.eot?t=1484793044531"); /* IE9*/ src: url("iconfont.eot?t=1484793044531#iefix") format("embedded-opentype"), url("iconfont.woff?t=1484793044531") format("woff"), url("iconfont.ttf?t=1484793044531") format("truetype"), url("iconfont.svg?t=1484793044531#iconfont") format("svg"); /* iOS 4.1- */ }
+
+.iconfont { font-family: "iconfont" !important; font-size: 16px; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon-caidan:before { content: "\f000d"; }
+
+.icon-erweima:before { content: "\f0050"; }
+
+.icon-tuichu:before { content: "\e796"; }
+
+.icon-my:before { content: "\e607"; }
+
+.icon-fangdajing:before { content: "\e653"; }
+
+.icon-shouyeshouye:before { content: "\e600"; }
+
+.icon-camera:before { content: "\e501"; }
+
+.navbar { min-height: 30px; height: 30px; border: none; margin-bottom: 0px; }
+
+.navbar .container-fluid { height: 30px; padding-right: 150px; }
+
+.nav > li > a { display: inline; line-height: 30px; padding: 10px 10px; }
+
+.navbar-default .navbar-nav li > a { color: #666; font-size: 12px; }
+
+.navbar-default .navbar-nav li:last-child a { color: red; }
+
+.dropdown div img { width: 112px; height: 112px; }
+
+.dropdown-menu { min-width: 115px; border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus { background-color: #ffffff; color: red; }
+
+.help a { font-size: 12px; }
+
+.container-fluid { background: #f2f2f2; }
+
+.main { height: 666px; width: 100%; background-color: #FBE1D4; position: relative; }
+
+.main .container { width: 1000px; }
+
+.main .container .bg { background: url(../img/bg.jpg) no-repeat; height: 666px; width: 100%; }
+
+.main .container .bg img { margin-top: 10px; }
+
+.panel-default { width: 420px; position: absolute; top: 135px; right: 170px; }
+
+.panel-default .register { font-size: 24px; letter-spacing: 5px; padding-left: 35px; }
+
+.panel-default .login { line-height: 34px; }
+
+.panel-default .row { height: 80px; }
+
+.panel-default .form-control { width: 300px; }
+
+.panel-default .form-group { margin-left: 50px; }
+
+.panel-default button { width: 300px; height: 40px; background-color: crimson; color: white; margin-left: 50px; }
+
+.panel-default .lefeng { color: #cccccc; margin-left: 50px; }
+
+footer { font-size: 12px; }
+
+footer .row { margin-top: 20px; margin-bottom: 20px; }
+
+footer .footer_1, footer .footer_2, footer .footer_3, footer .footer_4, footer .footer_5 { background: url(../img/icon-base01.png) no-repeat; background-position: -194px -277px; height: 36px; width: 110px; display: block; }
+
+footer .footer_2 { background-position: -194px -315px; }
+
+footer .footer_3 { background-position: -194px -240px; }
+
+footer .footer_4 { background-position: -194px -204px; }
+
+footer .footer_5 { background-position: -194px -315px; }

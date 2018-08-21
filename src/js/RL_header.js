@@ -1,0 +1,1 @@
+$('#pageHeader').load('../html/common/RL_header.html .navbar');

@@ -1,0 +1,1 @@
+$('.main').load('../html/register_main.html');

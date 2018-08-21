@@ -1,0 +1,46 @@
+@import 'base';
+
+.navbar{
+    min-height:30px;
+    height: 30px;
+    border: none;
+    margin-bottom: 0px;
+    .container-fluid{
+        height: 30px;
+        padding-right: 150px;
+    }
+}
+.nav > li > a {
+    display: inline;
+    line-height: 30px;
+    padding: 10px 10px;
+}
+.navbar-default .navbar-nav {
+    li > a {
+    color: #666;
+    font-size: 12px;
+    }
+    li:last-child a {
+        color: red;
+    }
+} 
+.dropdown div img {
+    width: 112px;
+    height: 112px;
+}
+.dropdown-menu{
+    min-width: 115px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #ffffff;
+    color:red;
+}
+.help{
+    a{
+        font-size: 12px;
+    }
+}
+.container-fluid {
+    background: #f2f2f2;;
+}

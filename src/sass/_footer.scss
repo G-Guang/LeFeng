@@ -1,0 +1,32 @@
+footer{
+    font-size: 12px;
+    .row{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_1{
+        background: url(../img/icon-base01.png)  no-repeat;
+        background-position: -194px -277px;
+        height: 36px;
+        width: 110px;
+        display: block;
+
+    }
+    .footer_2{
+        @extend .footer_1;
+        background-position: -194px -315px;
+    }
+    .footer_3{
+        @extend .footer_1;
+        background-position: -194px -240px;
+    }
+    .footer_4{
+        @extend .footer_1;
+        background-position: -194px -204px;
+    }
+    .footer_5{
+        @extend .footer_1;
+        background-position: -194px -315px;
+    }
+    
+}

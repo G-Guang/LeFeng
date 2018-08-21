@@ -1,0 +1,53 @@
+.main{
+    height: 666px;
+    width: 100%;
+    background-color: #FBE1D4;
+    position: relative;
+    .container {
+        width: 1000px;
+    .bg{
+        background: url(../img/bg.jpg) no-repeat;
+        height: 666px;
+        width: 100%;
+        img{
+            margin-top: 10px;
+        }
+    }
+}
+    
+}
+.panel-default{
+    width: 420px;
+    position: absolute;
+    top: 135px;
+    right: 170px;
+    .register{
+        font-size: 24px;
+        letter-spacing: 5px;
+        padding-left: 35px;
+    }
+    .login{
+        line-height: 34px;
+    }
+    .row{
+        height: 80px;
+    }
+    .form-control{
+        width: 300px;
+    }
+    .form-group {
+        margin-left: 50px;
+    }
+    button{
+        width: 300px;
+        height: 40px;
+        background-color: crimson;
+        color: white;
+        margin-left: 50px;
+    }
+    .lefeng{
+        color: #cccccc;
+        margin-left: 50px;
+    }
+    
+}

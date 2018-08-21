@@ -1,0 +1,1 @@
+$('.main').load('../html/login_main.html');

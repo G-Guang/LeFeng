@@ -1,0 +1,1 @@
+$('#pagefooter').load('../html/footer.html');
